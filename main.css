@@ -1,0 +1,546 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1600px;
+} 
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    height: 862px; 
+    background: #FFA3A3;
+}
+
+nav {
+    max-width: 100%;
+    display: flex;
+}
+
+nav img {
+    width: 40px;
+    padding-top: 40px;
+} 
+
+.nav_ul {
+    padding-left: 266px;
+}
+
+.nav_ul li {
+    display: inline-block;
+    padding-top: 42px;
+    padding-left: 5px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    padding-top: 20px 20px;
+
+    color: #150101;
+}
+
+nav button {
+    width: 165px;
+    height: 49px;    
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+    margin-left: 400px;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.header_card {
+    display: flex;
+}
+
+.header_c_r img {
+    width: 700px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: -100px;
+    display: inline;
+}
+
+.header_c_l {
+    padding-top: 285px;
+    padding-left: 80px;
+    display: inline;
+}
+.header_c_l .p-top {
+    width: 174px;
+    height: 16px;
+    padding-bottom: 6px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    color: #0F0101;
+    letter-spacing: 0.1em;
+}
+
+.header_c_l h1 {
+    width: 665px;
+    height: 130px;
+    padding-top: 6px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    color: #0F0101;
+}
+
+.header_c_l .h1-a {
+    color: #D23166;
+}
+
+.p_bottom {
+    padding-top: 35px;
+    width: 523px;
+    height: 78px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #0F0101;
+}
+
+.main_b{
+    width: 165px;
+    height: 49px; 
+    margin-top: 90px;  
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.cards {
+    margin: 100px 231px 252px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.card h1 {
+    padding-top: 24.65px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+.card p {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 198px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+} 
+
+.card img {
+    padding-top: 27px;
+}
+
+.sec-2_card {
+    height: 544.5px;
+    background: #F8EDF0;
+    padding-left: 80px;
+    display: flex;
+}
+
+.sec-2_card h1 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+}
+
+.sec-2_title {
+    width: 300px;
+    padding-top: 100px;
+}
+ 
+
+.sec-2_img {
+    width: 600px;
+    height: 500px;
+    margin-top: -30px;
+    margin-left: 300px;
+}
+
+.paragraph h1 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    color: #150101;
+    margin-top: 137px;
+    text-align: center;
+}
+
+.paragraph ul {
+    text-align: center;
+}
+
+.paragraph li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 70px 20px;
+}
+
+.row1 {
+    display: flex;
+}
+
+
+
+.row1-title {
+    width: 450px;
+    margin-left: 85px;
+}
+
+.row1 h1 {
+    margin-top: 50px;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.row1-p {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.row1-img {
+    width: 400px;
+    height: 300px;
+    margin-top: -20px;
+    margin-left: -300px;
+}
+
+.row1-price {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.row1 button {
+    width: 165px;
+    height: 49px; 
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.row2 {
+    display: flex;
+    text-align: right;
+}
+
+.row2-title {
+    width: 450px;
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.row2 h1 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.row2-img {
+    width: 400px;
+    height: 300px;
+}    
+
+.row2-p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.row2-price {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.row2 button {
+    width: 165px;
+    height: 49px; 
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FAFAFA;  
+}
+
+.row3 {
+    display: flex;
+}
+
+.row3-img {
+    width: 150px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.row3-title {
+    width: 450px;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.row3 h1 {
+    margin-bottom: 20px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+}
+
+.row3-p {
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.row3-price {
+    margin-bottom: 10px;
+}
+
+.row3 button {
+    width: 165px;
+    height: 49px; 
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FAFAFA;  
+}
+
+.row4 {
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 300px;
+    display: flex;
+}
+
+.row4-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.road {
+    margin-top: 100px;
+}
+
+.road1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.road1 img {
+    width: 59px;
+    height: 58px;
+    margin-right: 10px;
+}
+
+.road1 h1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+.road1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    opacity: 0.7;
+}
+
+.road2 {
+    display:flex;
+    margin: 20px;
+}
+
+.road2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.road2 img {
+    width: 10px;
+    height: 10px;
+}
+
+.road3 {
+    justify-content: space-around;
+}
+
+.road3 .man {
+    border-radius: 50%;
+}
+
+.section-4 {
+    width: 100%;
+    height: 678px;
+    margin-top: 150px;
+    background: #F8EDF0;
+    display: flex;
+}
+
+.sec-4-img {
+    margin-left: 200px;
+    padding-top: 100px;
+}
+
+.sec-4-title {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.sec-4-title h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+}
+
+.title-p {
+    width: 600px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+}
+
+
+.sec4-rows {
+    margin-top: 50px;
+}
+
+.sec4-rows .row {
+    display: flex;
+    padding: 10px;
+}
+
+.row-p {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.down {
+    padding-top: 20px;
+}
+
+.section-5 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.section-5 h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.section-5 button {
+    margin-left: 0px;
+    width: 134px;
+    height: 72px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.section-5 input {
+    width: 303px;
+    height: 74px;
+    margin-top: 50px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+}
+
+.question {
+    width: 800px;
+}
